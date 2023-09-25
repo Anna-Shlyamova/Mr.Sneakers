@@ -3,7 +3,8 @@ import React from 'react';
 export const Card = () =>{
     return(
         <div className='Card'>
-            <img className='mb-15' width={133} height={112} src= './image/sneak1.jpg'/>
+            <img className='Card__favourite' src= './image/fav.svg' alt='unliked'/>
+            <img className='mb-15' width={133} height={112} src= './image/sneak1.jpg' alt='sneakers'/>
             <p className='mb-15'>Мужские Кроссовки Nike Blazer Mid Suede</p>
             <div className='d-flex justify-between align-center'>
                 <div className='d-flex align-center flex-column align-start'>
